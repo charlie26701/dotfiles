@@ -26,8 +26,8 @@ else
     exit 1
 fi
 # Set timezone
-if timedatectl set-timezone Asia/Ho_Chi_Minh; then
-    echo "Timezone set to Asia/Ho_Chi_Minh."
+if timedatectl set-timezone Asia/Taipei; then
+    echo "Timezone set to Asia/Taipei."
 else
     echo "Failed to set timezone."
     exit 1
